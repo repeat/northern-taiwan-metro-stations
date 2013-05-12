@@ -237,28 +237,42 @@ $tpe_red = [
             'id' => 'R10',
             'name' => '東門',
             'address' => '10650 台北市大安區信義路二段166號B1',
+            'future' => true
         ],
         [
             'id' => 'R9',
             'name' => '大安森林公園',
+            'future' => true
         ],
         [
             'id' => 'R8',
             'name' => '大安',
             'address' => '10683 台北市大安區信義路四段2號',
+            'future' => true
         ],
         [
             'id' => 'R7',
             'name' => '信義安和',
+            'future' => true
         ],
         [
             'id' => 'R6',
             'name' => '台北101/世貿',
+            'future' => true
         ],
         [
             'id' => 'R5',
             'name' => '象山',
+            'future' => true
         ],
+        [
+            'id' => 'R4',
+            'future' => true
+        ],
+        [
+            'id' => 'R3',
+            'future' => true
+        ]
     ]
 ];
 
@@ -280,33 +294,40 @@ $green = [
             'id' => 'G22',
             'name' => '松山',
             'address' => '11088 台北市信義區松山路11號',
+            'future' => true
         ],
         [
             'id' => 'G21',
             'name' => '南京三民',
+            'future' => true
         ],
         [
             'id' => 'G19',
             'name' => '台北小巨蛋',
+            'future' => true
         ],
         [
             'id' => 'G18',
             'name' => '南京復興',
             'address' => '10550 台北市松山區南京東路三段253號',
+            'future' => true
         ],
         [
             'id' => 'G17',
             'name' => '松江南京',
             'address' => '10457 台北市中山區松江路126號B1',
+            'future' => true
         ],
         [
             'id' => 'G16',
             'name' => '中山',
             'address' => '10444 台北市中山區南京西路16號',
+            'future' => true
         ],
         [
             'id' => 'G14',
             'name' => '北門',
+            'future' => true
         ],
         [
             'id' => 'G13',
@@ -413,10 +434,12 @@ $tpe_orange = [
         [
             'id' => 'O59',
             'name' => '迴龍',
+            'future' => true
         ],
         [
             'id' => 'O60',
             'name' => '丹鳳',
+            'future' => true
         ],
         [
             'id' => 'O1',
@@ -632,6 +655,7 @@ $blue = [
         [
             'id' => 'BL36',
             'name' => '頂埔',
+            'future' => true
         ]
     ]
 ];
