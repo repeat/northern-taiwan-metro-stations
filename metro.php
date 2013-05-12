@@ -801,7 +801,7 @@ $khh_orange = [
 ];
 
 $metro = [
-    'cities' => [
+    'areas' => [
         [
             'name' => 'Taipei',
             'lines' => [
