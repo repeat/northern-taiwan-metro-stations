@@ -405,14 +405,14 @@ $green = [
         [
             'id' => 'G18',
             'name' => '南京復興',
+            'future' => true,
             'addr' => '10550 台北市松山區南京東路三段253號',
-            'future' => true
         ],
         [
             'id' => 'G17',
             'name' => '松江南京',
+            'future' => true,
             'addr' => '10457 台北市中山區松江路126號B1',
-            'future' => true
         ],
         [
             'id' => 'G16',
