@@ -1188,4 +1188,4 @@ $metro = [
     ]
 ];
 
-echo json_encode($metro);
+echo json_encode($metro, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
