@@ -1165,8 +1165,10 @@ $khh_orange = [
 ];
 
 $metro = [
+/*
     'areas' => [
         [
+ */
             'name' => 'Taipei',
             'lines' => [
                 $brown,
@@ -1177,6 +1179,7 @@ $metro = [
                 $xinbeitou,
                 $xiaobitan
             ]
+/*
         ],
         [
             'name' => 'Kaohsiung',
@@ -1186,6 +1189,7 @@ $metro = [
             ]
         ],
     ]
+ */
 ];
 
 echo json_encode($metro, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
