@@ -12,7 +12,7 @@ $geometry = [
 ];
 
 foreach ($stations as $station) {
-    list($id, $name, $line, $zipcode, $address, $lat, $lon, $future) = $station;
+    list($id, $name, $line_no, $line, $zipcode, $address, $lat, $lon) = $station;
 
     if (1 == $future) {
         continue;
@@ -22,6 +22,7 @@ foreach ($stations as $station) {
     $properties = [
         '編號' => (string) $id,
         '站名' => $name,
+        '路線編號' => (int) $line_no,
         '線名' => $line,
         '郵遞區號' => (int) $zipcode,
         '地址' => $address,
