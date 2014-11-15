@@ -16,9 +16,9 @@ foreach ($stations as $station) {
 
     $geometry['coordinates'] = [(float) $lon, (float) $lat];
     $properties = [
-        '編號' => (string) $id,
+        '編號' => $id,
         '站名' => $name,
-        '路線編號' => (int) $line_no,
+        '路線編號' => $line_no,
         '線名' => $line,
         '郵遞區號' => (int) $zipcode,
         '地址' => $address,
