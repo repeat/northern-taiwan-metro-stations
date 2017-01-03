@@ -1,4 +1,4 @@
-station_code,id,station_name_tw,station_name_en,line_code,line_name,zipcode,address,lat,lon
+station_code,construction_id,station_name_tw,station_name_en,line_code,line_name,zipcode,address,lat,lon
 BR01,BR13,動物園,Taipei Zoo,BR,文湖線,11656,台北市文山區新光路二段32號,24.998197,121.579338
 BR02,BR12,木柵,Muzha,BR,文湖線,11656,台北市文山區木柵路四段135號,24.998241,121.573145
 BR03,BR11,萬芳社區,Wanfang Community,BR,文湖線,11653,台北市文山區萬芳路60號,24.998585,121.568102
