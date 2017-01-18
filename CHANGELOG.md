@@ -1,6 +1,6 @@
 # Changelog
 
-## 未釋出版本
+## v1.0
 
 ### 新增
 - 此一 CHANGELOG.md 檔
