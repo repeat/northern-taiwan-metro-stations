@@ -8,5 +8,5 @@ type:
 - GeoJSON (taipei.json)
 
 reference:
-- http://www.metro.taipei/ct.asp?xItem=174103819&ctNode=70050&mp=122035
-- http://www.metro.taipei/public/Attachment/641115315528.jpg
+- http://www.metro.taipei/ct.asp?xItem=78479152&CtNode=70089&mp=122035
+- http://web.metro.taipei/img/all/metrotaipeimap.jpg
