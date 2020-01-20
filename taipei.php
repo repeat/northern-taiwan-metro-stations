@@ -11,6 +11,17 @@ $geometry = [
     'type' => 'Point'
 ];
 
+// use wikipedia colors
+$colors = [
+    'BR' => '#c48c31',
+    'R' => '#e3002c',
+    'G' => '#008659',
+    'O' => '#f8b61c',
+    'BL' => '#0070bd',
+    'Y' => '#fddb00',
+    'A' => '#8246af',
+];
+
 foreach ($stations as $station) {
     list(
         $station_code,
