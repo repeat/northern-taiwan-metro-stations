@@ -4,7 +4,7 @@ foreach ($lines as $line) {
     $stations[] = str_getcsv($line);
 }
 
-// remove keys.
+// remove column name
 unset($stations[0]);
 
 $geometry = [
