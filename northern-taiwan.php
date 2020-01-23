@@ -1,5 +1,7 @@
 <?php
-$lines = file('taipei.csv');
+$area_name = 'northern-taiwan';
+
+$lines = file($area_name . '.csv');
 foreach ($lines as $line) {
     $stations[] = str_getcsv($line);
 }
@@ -67,6 +69,6 @@ $geojson = [
     'features' => $features
 ];
 
-$handle = fopen('taipei.geojson', 'w+');
+$handle = fopen($area_name . '.geojson', 'w+');
 fwrite($handle, json_encode($geojson, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
 fclose($handle);
