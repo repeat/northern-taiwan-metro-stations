@@ -1,7 +1,5 @@
-northern-taiwan-metro-stations
-==============================
-
-# 北台灣捷運站地址及經緯度相關資料
+# northern-taiwan-metro-stations
+北台灣捷運站地址及經緯度相關資料
 
 ## 檔案格式
 - csv
