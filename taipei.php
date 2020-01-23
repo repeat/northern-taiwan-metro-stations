@@ -67,4 +67,6 @@ $geojson = [
     'features' => $features
 ];
 
-echo json_encode($geojson, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+$handle = fopen('taipei.geojson', 'w+');
+fwrite($handle, json_encode($geojson, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
+fclose($handle);
