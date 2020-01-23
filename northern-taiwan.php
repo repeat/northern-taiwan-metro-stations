@@ -1,18 +1,6 @@
 <?php
 $area_name = 'northern-taiwan';
 
-$lines = file($area_name . '.csv');
-foreach ($lines as $line) {
-    $stations[] = str_getcsv($line);
-}
-
-// remove column name
-unset($stations[0]);
-
-$geometry = [
-    'type' => 'Point'
-];
-
 // use wikipedia colors
 $colors = [
     'BR' => '#c48c31',
@@ -23,6 +11,18 @@ $colors = [
     'Y' => '#fddb00',
     'A' => '#8246af',
 ];
+
+$geometry = [
+    'type' => 'Point'
+];
+
+$lines = file($area_name . '.csv');
+foreach ($lines as $line) {
+    $stations[] = str_getcsv($line);
+}
+
+// remove column name
+unset($stations[0]);
 
 foreach ($stations as $station) {
     list(
