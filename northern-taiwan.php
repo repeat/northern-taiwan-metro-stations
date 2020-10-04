@@ -32,7 +32,6 @@ foreach ($stations as $station) {
         $station_name_en,
         $line_code,
         $line_name,
-        $zipcode,
         $address,
         $lat,
         $lon
@@ -45,7 +44,6 @@ foreach ($stations as $station) {
         '英譯站名' => $station_name_en,
         '路線編號' => $line_code,
         '路線名' => $line_name,
-        '郵遞區號' => (int) $zipcode,
         '地址' => $address,
         '緯度' => (float) $lat,
         '經度' => (float) $lon,
