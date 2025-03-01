@@ -18,7 +18,7 @@ $geometry = [
 
 $lines = file(__DIR__ . "/{$area_name}.csv");
 foreach ($lines as $line) {
-    $stations[] = str_getcsv($line);
+    $stations[] = str_getcsv($line, escape: '');
 }
 
 // remove column name
