@@ -16,9 +16,9 @@ $geometry = [
     'type' => 'Point'
 ];
 
-$lines = file($area_name . '.csv');
+$lines = file(__DIR__ . "/{$area_name}.csv");
 foreach ($lines as $line) {
-    $stations[] = str_getcsv($line);
+    $stations[] = str_getcsv($line, escape: '');
 }
 
 // remove column name
@@ -67,6 +67,6 @@ $geojson = [
     'features' => $features
 ];
 
-$handle = fopen($area_name . '.geojson', 'w+');
+$handle = fopen(__DIR__ . "/../output/$area_name.geojson", 'w+');
 fwrite($handle, json_encode($geojson, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
 fclose($handle);
